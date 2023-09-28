@@ -1,0 +1,99 @@
+
+.maincon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maincon .inner{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner .boxinner{
+      background-color: black;
+      width: 40%;
+      height: 40vh;
+}
+.nav{
+    background-color: green;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    transition:1s ease-in;
+    display: flex;
+  
+    align-items: center;
+}
+.nav .straight{
+    background-color: blue;
+    width: 95%;
+    height: 6vh;
+    visibility: hidden;
+}
+.white{
+    background-color: white;
+    width: 5%;
+    height: 6vh;
+    margin-right: 1vw;
+}
+.dropprac{
+    background-color:transparent;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+.dropprac .red{
+    background-color: red;
+    width: 50%;
+    height: 100vh;
+    visibility: hidden;
+}
+.dropprac .dropdown{
+    background-color: green;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+}
+.dropprac .dropdown .cross{
+    background-color: white;
+    width: 10%;
+    height: 2vw;
+  
+}
+.dropprac .dropdown .right{
+    background-color: blue;
+    width: 90%;
+    height: 2vw;
+    visibility: hidden;
+}
+.box1prac{
+    background-color: pink;
+    width: 80%;
+    height: 40vh;
+    margin-top: 2vh;
+}
+.pdf{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+.pdfinner{
+   background-color: green;
+   display: flex;
+   justify-content: center;
+   width: 4rem;
+}
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    .inner .boxinner {
+        background-color: black;
+        width: 17rem;
+        height: 15rem;
+    }
+}

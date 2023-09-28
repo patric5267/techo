@@ -1,0 +1,16 @@
+for responsive font size always use vw unit also for margin-right
+for responsive width always use % unit 
+
+
+@media only screen and (max-width: 425px) {
+    .logout button {
+        width: 100%;
+    }
+    .mode img{
+        width: 8vw;
+    }
+    .list div {
+    margin-right: 8vw;
+    font-size: 4vw;
+}
+}
